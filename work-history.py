@@ -70,6 +70,6 @@ for k,v in reduced.items():
     print('On date %s you did:' % k)
     print('------------------------------------------------------------------------------------------------')
     for message in sorted(set(v)):
-        indent = ''.join(map(lambda x : '\t', range(10)))
+        indent = ''.join(map(lambda x : '\t', range(4)))
         print(indent + message)
 
